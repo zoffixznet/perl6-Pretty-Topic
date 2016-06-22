@@ -16,6 +16,11 @@ given <meow woof>.pick  {
     when ♥ ~~ /meo/ { say 'Tis a kitty!' }
     when ♥ ~~ /oof/ { say 'Tis a doggy!' }
 }
+
+# Multi-char is fine too:
+use Pretty::Topic 'TOPIC-VAR';
+say ^4 .map: { TOPIC-VAR  + 10 };
+
 ```
 
 # DESCRIPTION

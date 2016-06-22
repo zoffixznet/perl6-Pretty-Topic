@@ -1,3 +1,4 @@
+use lib <lib>;
 use Pretty::Topic '♥';
 
 say ^4 .map: { $_ + 10 }; # fugly

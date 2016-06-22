@@ -2,7 +2,7 @@
     "perl"         : "6.c",
     "name"         : "Pretty::Topic",
     "version"      : "1.001001",
-    "description"  : "Alias `$_` topical variable to a custom string",
+    "description"  : "Alias $_ topical variable to something prettier",
     "depends"      : [ ],
     "test-depends" : [ "Test", "Test::META" ],
     "provides"     : {

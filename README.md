@@ -2,7 +2,7 @@
 
 # NAME
 
-Pretty::Topic - Alias $_ topical variable to something prettier
+Pretty::Topic - Alias `$_` topical variable to something prettier
 
 # SYNOPSIS
 

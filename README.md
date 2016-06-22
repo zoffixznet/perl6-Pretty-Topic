@@ -16,11 +16,13 @@ given <meow woof>.pick  {
     when ♥ ~~ /meo/ { say 'Tis a kitty!' }
     when ♥ ~~ /oof/ { say 'Tis a doggy!' }
 }
+```
 
-# Multi-char is fine too:
+Multi-char alias is fine too:
+```perl6
 use Pretty::Topic 'TOPIC-VAR';
-say ^4 .map: { TOPIC-VAR  + 10 };
 
+say ^4 .map: { TOPIC-VAR  + 10 };
 ```
 
 # DESCRIPTION

@@ -22,7 +22,7 @@ Multi-char alias is fine too:
 ```perl6
 use Pretty::Topic 'TOPIC-VAR';
 
-say ^4 .map: { TOPIC-VAR  + 10 };
+say ^4 .map: { TOPIC-VAR + 10 };
 ```
 
 # DESCRIPTION
